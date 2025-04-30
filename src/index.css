@@ -1,0 +1,112 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+header {
+  padding: 20px 0;
+}
+
+.title-red {
+  color: #e94b35;
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.subtitle {
+  font-size: 1.3rem;
+  color: #333;
+  margin-top: -10px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: gray;
+  font-size: 1.2rem;
+}
+
+nav a.active {
+  color: black;
+  border-bottom: 2px solid gray;
+}
+
+main {
+  margin-top: 20px;
+}
+
+article {
+  margin-bottom: 40px;
+}
+
+.date {
+  font-size: 1.2rem;
+  color: #999;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-top: 5px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+
+.dropcap::first-letter {
+  float: left;
+  font-size: 4rem;
+  line-height: 1;
+  padding-right: 8px;
+  color: gray;
+}
+
+.continue a {
+  color: #e94b35;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+footer {
+  border-top: 1px solid #ccc;
+  margin-top: 40px;
+  padding-top: 20px;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.footer-nav {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 0;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: #e94b35;
+}
