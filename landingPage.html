@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Sartre's List</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <style>
+    body {
+      font-family: "Open Sans", sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    header {
+      padding: 20px 0;
+    }
+
+    .title-red {
+      color: #e94b35;
+      font-size: 3rem;
+      font-weight: 300;
+    }
+
+    .subtitle {
+      font-size: 1.3rem;
+      color: #333;
+      margin-top: -10px;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      gap: 20px;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 10px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: gray;
+      font-size: 1.2rem;
+    }
+
+    nav a.active {
+      color: black;
+      border-bottom: 2px solid gray;
+    }
+
+    main {
+      margin-top: 20px;
+    }
+
+    article {
+      margin-bottom: 40px;
+    }
+
+    .date {
+      font-size: 1.2rem;
+      color: #999;
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin-top: 5px;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      margin-top: 10px;
+    }
+
+    .dropcap::first-letter {
+      float: left;
+      font-size: 4rem;
+      line-height: 1;
+      padding-right: 8px;
+      color: gray;
+    }
+
+    .continue a {
+      color: #e94b35;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid #ccc;
+    }
+
+    footer {
+      border-top: 1px solid #ccc;
+      margin-top: 40px;
+      padding-top: 20px;
+      font-size: 0.9rem;
+      color: #666;
+    }
+
+    .footer-nav {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 0;
+    }
+
+    .footer-nav a {
+      text-decoration: none;
+      color: #e94b35;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <header>
+        <h1><span class="title-red">Sartre's List</span></h1>
+        <p class="subtitle">Better-Dressed People</p>
+        <nav>
+          <ul>
+            <li><a href="#">Women's</a></li>
+            <li><a href="#">Men's</a></li>
+            <li><a href="#" class="active">On the Street</a></li>
+            <li><a href="#">The Catwalk</a></li>
+            <li><a href="#">AdWatch</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <article>
+          <p class="date">11/12/20</p>
+          <h2>On the Street in Brooklyn</h2>
+          <img
+            src="https://images.unsplash.com/photo-1724685324990-74387bbde351?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="On the Street in Brooklyn"
+          />
+          <p class="dropcap">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error
+            blanditiis consequatur doloremque enim iste odio veritatis placeat
+            eos delectus ex, rerum corrupti numquam, illo dolorum minima nobis
+            nostrum esse mollitia! Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Atque tempora sunt repudiandae nam sequi eos,
+            consectetur illo asperiores inventore ab molestias minima animi
+            quasi neque quas incidunt ipsa! Alias, beatae.
+          </p>
+          <p class="continue"><a href="#">Continues ...</a></p>
+        </article>
+
+        <hr />
+
+        <article>
+          <p class="date">11/11/20</p>
+          <h2>Vintage in Vogue</h2>
+          <img
+            src="https://images.unsplash.com/photo-1488693161025-5f967b74de89?q=80&w=2059&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Vintage in Vogue"
+          />
+          <p class="dropcap">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error
+            blanditiis consequatur doloremque enim iste odio veritatis placeat
+            eos delectus ex, rerum corrupti numquam, illo dolorum minima nobis
+            nostrum esse mollitia! Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Atque tempora sunt repudiandae nam sequi eos,
+            consectetur illo asperiores inventore ab molestias minima animi
+            quasi neque quas incidunt ipsa! Alias, beatae.
+          </p>
+          <p class="continue"><a href="#">Continues ...</a></p>
+        </article>
+      </main>
+
+      <footer>
+        <ul class="footer-nav">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Women's</a></li>
+          <li><a href="#">Men's</a></li>
+          <li><a href="#">On the Street</a></li>
+          <li><a href="#">The Catwalk</a></li>
+          <li><a href="#">AdWatch</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Tips</a></li>
+        </ul>
+        <p>© 2013 Valet Industries, Inc</p>
+      </footer>
+    </div>
+  </body>
+</html>
